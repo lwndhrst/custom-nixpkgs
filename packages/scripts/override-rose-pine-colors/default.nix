@@ -13,8 +13,7 @@ let
     highlight-high = "524f67";
   };
   custom-colors = {
-    # base =           "040e14";
-    base =           "000f16";
+    base =           "040e14";
     surface =        "0a161d";
     overlay =        "0b1e28";
     muted =          "506471";
