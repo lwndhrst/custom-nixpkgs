@@ -15,7 +15,8 @@ let
   custom-colors = {
     base =           "040e14";
     surface =        "0a161d";
-    overlay =        "0b1e28";
+    overlay =        "102028";
+    # overlay =        "0b1e28";
     muted =          "506471";
     subtle =         "708593";
     text =           "c8d4dc";
