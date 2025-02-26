@@ -20,7 +20,8 @@
   };
 
   vimPlugins = {
-    harpoon     = pkgs.callPackage ./vim/plugins/harpoon {};
-    ranger-nvim = pkgs.callPackage ./vim/plugins/ranger-nvim {};
+    harpoon        = pkgs.callPackage ./vim-plugins/harpoon {};
+    ranger-nvim    = pkgs.callPackage ./vim-plugins/ranger-nvim {};
+    rose-pine-edit = pkgs.callPackage ./vim-plugins/rose-pine-edit {};
   };
 }
