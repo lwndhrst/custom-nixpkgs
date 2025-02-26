@@ -19,9 +19,9 @@ let
     muted =          "506471";
     subtle =         "708593";
     text =           "c8d4dc";
-    highlight_low = "0f2129";
-    highlight_med = "203039";
-    highlight_high = "495863";
+    highlight-low = "0f2129";
+    highlight-med = "203039";
+    highlight-high = "495863";
     # highlight-low =  "11181d";
     # highlight-med =  "29363f";
     # highlight-high = "384853";
