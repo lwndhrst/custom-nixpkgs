@@ -2,26 +2,26 @@
 
 let
   default-colors = {
-    base =           "#191724";
-    surface =        "#1f1d2e";
-    overlay =        "#26233a";
-    muted =          "#6e6a86";
-    subtle =         "#908caa";
-    text =           "#e0def4";
-    highlight-low =  "#21202e";
-    highlight-med =  "#403d52";
-    highlight-high = "#524f67";
+    base =           "191724";
+    surface =        "1f1d2e";
+    overlay =        "26233a";
+    muted =          "6e6a86";
+    subtle =         "908caa";
+    text =           "e0def4";
+    highlight-low =  "21202e";
+    highlight-med =  "403d52";
+    highlight-high = "524f67";
   };
   custom-colors = {
-    base =           "#040e14";
-    surface =        "#0a161d";
-    overlay =        "#0b1e28";
-    muted =          "#506471";
-    subtle =         "#708593";
-    text =           "#c8d4dc";
-    highlight-low =  "#11181d";
-    highlight-med =  "#29363f";
-    highlight-high = "#384853";
+    base =           "040e14";
+    surface =        "0a161d";
+    overlay =        "0b1e28";
+    muted =          "506471";
+    subtle =         "708593";
+    text =           "c8d4dc";
+    highlight-low =  "11181d";
+    highlight-med =  "29363f";
+    highlight-high = "384853";
   };
 
 in writeShellApplication {
