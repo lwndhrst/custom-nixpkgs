@@ -10,8 +10,8 @@ stdenvNoCC.mkDerivation {
   src = fetchFromGitHub {
     owner = "lwndhrst";
     repo = "fcitx5-rose-pine-edit";
-    rev = "c28b78e49946ea011c803d636b4d81cc7075985b";
-    sha256 = "qWmZKgwN7py7nn7vAAZps9+qiqNU+k6JClu5ScskJWc=";
+    rev = "5c3322aed29b1670e8f091cabb44cfcbc01ff982";
+    sha256 = "D2IGDJplYsEN1GRX0eDboCCNCuMMym81BNCSE7f/vFg=";
   };
 
   installPhase = ''
