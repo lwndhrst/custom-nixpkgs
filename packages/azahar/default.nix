@@ -15,6 +15,7 @@ appimageTools.wrapType2 rec {
   meta = with lib; {
     description = "An open-source 3DS emulator project based on Citra.";
     homepage = "https://azahar-emu.org/";
+    license = licenses.gpl2;
     platforms = platforms.x86_64;
   };
 }
