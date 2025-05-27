@@ -2,6 +2,7 @@
 
 {
   amdsmi                = pkgs.callPackage ./amdsmi {};
+  azahar                = pkgs.callPackage ./azahar {};
   cgv = {
     master              = pkgs.callPackage ./cgv { gitCommit = "master"; };
     develop             = pkgs.callPackage ./cgv { gitCommit = "develop"; };
