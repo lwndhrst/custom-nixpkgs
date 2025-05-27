@@ -15,15 +15,16 @@ let
     name = pname;
     exec = pname;
     desktopName = "Azahar Emulator";
-    startupWMClass = "azahar";
   };
 
 in appimageTools.wrapType2 rec {
   inherit pname version src;
 
-  extraPkgs = pkgs: [
-    desktopItem
-  ];
+  extraInstallCommands = ''
+    mkdir -p $out/share/applications
+    cp ${desktopItem}/share/applications/${pname}.desktop $out/share/applications/${pname}.desktop
+  '';
+
 
   meta = with lib; {
     description = "An open-source 3DS emulator project based on Citra.";
