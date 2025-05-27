@@ -12,6 +12,11 @@ appimageTools.wrapType2 rec {
     sha256 = "L7/VP9WGwGy3iRQ8i3DK5JR/Ag3A1NAXhKhWjyis+LQ=";
   };
 
+  extraInstallCommands = ''
+    substituteInPlace $out/share/applications/${pname}.desktop \
+      --replace-fail 'Exec=AppRun' 'Exec=${meta.mainProgram}'
+  '';
+
   meta = with lib; {
     description = "An open-source 3DS emulator project based on Citra.";
     homepage = "https://azahar-emu.org/";
